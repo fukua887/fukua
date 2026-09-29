@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>双燃料智能喷射 · 最终评委版</title>
+<title>商用车甲醇/柴油双燃料智能协同喷射平台</title>
 <style>
 :root{
   --bg0:#050b13;--bg1:#071323;--panel:#0b1a2a;--line:#1d3953;--text:#f3f8fc;--muted:#88a4bd;
@@ -99,7 +99,6 @@ input[type=range]{width:100%;accent-color:var(--blue)}.rangehint{font-size:10px;
   <div class="ctrl"><div class="ctrlhead"><span class="ctrlname">甲醇喷射量</span><div class="numwrap"><input id="methN" class="num" type="number" step="0.1"><span class="unit">mg/cyc</span></div></div><input id="methR" type="range" step="0.1"><div class="rangehint" id="methHint"></div></div>
   <div class="ctrl"><div class="ctrlhead"><span class="ctrlname">柴油喷射量</span><div class="numwrap"><input id="dieselN" class="num" type="number" step="0.1"><span class="unit">mg/cyc</span></div></div><input id="dieselR" type="range" step="0.1"><div class="rangehint" id="dieselHint"></div></div>
   <div class="buttons"><button class="btn primary" id="optBtn">应用AI推荐策略</button><button class="btn secondary" id="resetBtn">恢复巡航工况</button></div>
-  <div class="aside-note"><b>本版已将负荷加入神经网络输入。</b><br>现在改变负荷不仅会改变GMM工况识别，也会同步改变NOx、BSFC、Pmax预测和AI推荐策略。</div>
 </aside>
 
 <main class="content">
